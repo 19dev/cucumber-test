@@ -14,8 +14,11 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-  gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'rspec'
   gem 'spork'
+end
+
+group :test do
+  gem 'cucumber-rails'
 end
