@@ -5,7 +5,7 @@
   </p>
   <p>
     <%= f.label :tur %><br />
-    <%= f.text_field :tur %>
+    <%= f.select :tur, [['a', 0], ['b', 1], ['c', 2]] %>
   </p>
   <p><%= f.submit %></p>
 <% end %>

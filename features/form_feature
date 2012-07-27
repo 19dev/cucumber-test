@@ -4,3 +4,4 @@ Feature: Form Test
 	Scenario: Select
 		Given I visit form page
 		When I select "option" from "list" by "text"
+		Then "option" selected from "list"
